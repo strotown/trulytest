@@ -1,0 +1,24 @@
+/* Hide the specified text elements */
+.ScreenSelect_Header,
+.ScreenSelect_Description_Text,
+.ScreenSelect_HelperText {
+    display: none !important;
+}
+
+/* Add custom text in white above the background selector */
+.ScreenSelect_Container::before {
+    content: "Choose Your Background";
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Add a custom background image for the page */
+body {
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/24/23/796/portrait-display-vertical-pattern-digital-art-wallpaper-preview.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
