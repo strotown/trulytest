@@ -1,0 +1,19 @@
+/* Change the description text color and insert new text */
+.ScreenSelect_Description_Text {
+  font-size: 0;
+  color: transparent;
+}
+
+.ScreenSelect_Description_Text::before {
+  content: "Choose Your Background";
+  font-size: 16px; /* Set the font size to the desired value */
+  color: #FFF; /* Set the text color to the desired value */
+}
+
+/* Set a background image for the page */
+body {
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/24/23/796/portrait-display-vertical-pattern-digital-art-wallpaper-preview.jpg'); /* Replace the URL with your desired background image URL */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
